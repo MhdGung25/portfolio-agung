@@ -47,7 +47,7 @@ export const projects = [
     id: 6,
     title: "Pengaduan Masyarakat",
     description: "Sistem pengaduan masyarakat yang memungkinkan warga untuk melaporkan masalah atau kejadian di lingkungan mereka dengan mudah dan efisien.",
-    tech: ["React","Tailwind", "Vite","mysql","laravel","rest api"],
+    tech: ["React","Tailwind", "Vite","mysql","laravel","rest api","postman"],
     image: "img/projects/pengaduan-masyarakat.png",
     liveUrl: "",
     githubUrl: ""
