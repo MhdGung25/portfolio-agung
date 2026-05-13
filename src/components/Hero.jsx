@@ -51,7 +51,7 @@ const Hero = () => {
             {/* Kontainer Foto Utama sesuai referensi image_633e07.jpg */}
             <div className="relative overflow-hidden rounded-[3rem] lg:rounded-[4rem] border-2 border-slate-100 dark:border-slate-800 shadow-xl">
               <img 
-                src="/img/profile.jpg" 
+                src="/img/profile-1.jpg" 
                 alt="Muhammad Agung Pamungkas" 
                 className="w-full h-auto object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700"
               />
