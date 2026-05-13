@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Konfigurasi untuk mendukung Dark Mode manual */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Transisi warna latar belakang dan teks saat tema berubah */
+  @apply transition-colors duration-500 bg-white text-slate-900;
+}
+
+/* Saat class 'dark' aktif di elemen <html> */
+.dark body {
+  @apply bg-[#0f172a] text-slate-100;
+}
