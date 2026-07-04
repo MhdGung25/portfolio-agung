@@ -49,7 +49,7 @@ const Hero = () => {
               Lihat Portofolio
             </a>
             <a 
-              href="/cv-muhammad-agung.pdf" 
+              href="/CV Muhammad Agung Pamungkas.pdf" 
               className="px-6 md:px-8 py-3 bg-transparent text-slate-900 dark:text-white border-2 border-slate-200 dark:border-slate-700 rounded-2xl font-black hover:bg-slate-50 dark:hover:bg-slate-800 transition-all flex items-center justify-center gap-2 text-xs tracking-wider uppercase whitespace-nowrap active:scale-95"
             >
               <svg className="w-4 h-4 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
@@ -65,4 +65,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Hero;  
